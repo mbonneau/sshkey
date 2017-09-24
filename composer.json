@@ -1,0 +1,25 @@
+{
+    "name": "mbonneau/sshkey",
+    "description": "Library for reading OpenSSH key files",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Matt Bonneau",
+            "email": "matt@bonneau.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SSHKey\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SSHKey\\Tests\\": "src/tests/"
+        }
+    },
+    "require": {}
+}
